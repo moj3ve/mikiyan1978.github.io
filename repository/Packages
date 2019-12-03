@@ -32,23 +32,6 @@ Description: SnowBoard Presets Extension
 Name: SnowBoard Preset Extension
 Author: Spark
 
-Package: com.spark.snowboardapplication
-Architecture: iphoneos-arm
-Version: 1.0.1~Beta1
-Section: Utilities
-Maintainer: Spark
-Installed-Size: 1088
-Depends: com.spark.snowboard
-Filename: ./debs/1.0.1~Beta1.deb
-Size: 611702
-MD5sum: 4fd834cebbf022ce38a9dcf9adf8c7fd
-SHA1: f2e825d54867abba5f6a62d4797d8a77860c080a
-SHA256: 7760fd26142a2049ba2403e7dd4fdf3875579b57bfc56cfa17cdc7134517257d
-SHA512: 7a48664aac346e53e7efec6587cb0424ae96e6a34b061aa23f5a3dfc16ccd481a930c98515b6d61af30894923cb52b3411c659b20f3acec39bf967587336c695
-Description: SnowBoard application
-Name: SnowBoard Application
-Author: Spark
-
 Package: com.spark.snowboard.masks
 Architecture: iphoneos-arm
 Version: 1.0.3~Beta1
@@ -158,25 +141,6 @@ SHA512: 6666ad7fc751e86d1b836501523ac6b1db3f7d23ee9f290d54ba25ab0f448cb7e5d475d4
 Description: More useful crash logs
 Name: Cr4shed
 Author: Muirey03
-
-Package: Flex3beta
-Architecture: iphoneos-arm
-Version: 1:3~Beta86
-Section: Tweaks
-Maintainer: John Coates
-Depends: mobilesubstrate, firmware (>=12.2) | org.swift.libswift (>=5.0), firmware (>= 9.0)
-Recommended: com.rpetrich.rocketbootstrap
-Conflicts: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex2package,  com.fuyuchi.flex2, Flex2Blackpackagebeta, com.johncoates.Flex3, Flex3FeatureCatalog, Flex3ToolsOnly
-Replaces: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex2package,  com.fuyuchi.flex2, Flex2Blackpackagebeta, com.johncoates.Flex3, Flex3FeatureCatalog, Flex3ToolsOnly
-Filename: ./debs/Flex3_3~Beta86.deb
-Size: 14920824
-MD5sum: fce34ff53b10f6733df7f449902cb227
-SHA1: 4d9f3723c104e256500b03e0ba7af8b38e4f1a4f
-SHA256: 2a2367571f9abbd270fd2f6d79b23244dc1bc885272ed26f1b07f4bb8dbd3b88
-SHA512: 225f31c691b3d99d2d400ae0978c736335ff7bfd1f718624e7522a92a9913491c95eee06ab367b416ddee32970b7bab535757cde706bfd0be35ac696882edfca
-Description: Develop your own tweaks and share them on the Flex Community Cloud
-Name: Flex 3 Beta
-Author: John Coates
 
 Package: applist
 Architecture: iphoneos-arm
@@ -305,27 +269,6 @@ Description: Load FLEX loader dynamically.
 Name: FLEXall
 Author: DGh0st <deeppwnage@yahoo.com>
 
-Package: com.exile90.icleanerpro
-Architecture: iphoneos-arm
-Version: 7.7.5
-Section: Utilities
-Maintainer: Ivano Bilenchi <support@ib-soft.net>
-Depends: firmware (>= 4.0), findutils, shell-cmds, apt | apt7
-Conflicts: org.altervista.exilecom.icleaner
-Replaces: org.altervista.exilecom.icleaner
-Filename: ./debs/com.exile90.icleanerpro_7.7.5_iphoneos-arm.deb
-Size: 5385562
-MD5sum: 5b6209151608ac092b4805833691bd9d
-SHA1: 0949f21d5f407a2e32b1b5741a1fe313d9e49aff
-SHA256: c90508a0f6782136717407639147ae5bbfba730c252ba044185a0ed072e2fccd
-SHA512: a689bf8004692452e9effb34058e74ad78541b0098662faf0e7f1a63f59b8e42f83e6dae6bea0f2e2a74fe19dbcb4039524917346e64007510cd41fe78e75942
-Homepage: http://ib-soft.net/icleaner
-Description: The first real iOS system cleaner & optimizer
-Name: iCleaner Pro
-Author: Ivano Bilenchi <support@ib-soft.net>
-Depiction: http://ib-soft.net/depictions/?pkgId=com.exile90.icleanerpro
-Icon: file:///Applications/iCleaner.app/Icon.png
-
 Package: com.fouadraheb.alarmgroups
 Architecture: iphoneos-arm
 Version: 1.0
@@ -398,25 +341,6 @@ Description: Pin screenshots on the screen.
 Name: Snapper 2
 Author: Jonathan Winger-lang
 
-Package: com.julioverne.cydown
-Architecture: iphoneos-arm
-Version: 7.0.1
-Section: Tweaks
-Maintainer: Julio
-Depends: cydia, coreutils-bin, coreutils, apt7, firmware (<< 8.3) | ldid (>= 1:1.2.1), mobilesubstrate, preferenceloader
-Filename: ./debs/com.julioverne.cydown_7.0.1_iphoneos-arm.deb
-Size: 3549462
-MD5sum: edd46f179dd1fac3ecba98782276221d
-SHA1: ad807ea780b6c3f46eeee38e41efaaefac1c8b2a
-SHA256: 50506f48963e41b9e3e947cefad2715934eb7312821232ce09d2ee7ef9cf5177
-SHA512: ce71172725a57c6a6c0a28c4d1a5ae3fc18287fd61d90842235b1f0be3562cabd64b8f5bd3fe25319cf2ebc647c26990a5f6ca95c341511838ad2ad2b4451078
-Homepage: http://twitter.com/ijulioverne
-Description: Cydia Download Manager & Extra Features!
-Name: CyDown
-Author: julioverne <julioverne@me.com>
-Depiction: http://julio.hackyouriphone.org/description.html?id=com.julioverne.cydown
-Icon: file:///Library/PreferenceBundles/CyDownSettings.bundle/CyDown@2x.png
-
 Package: com.julioverne.flipconvert
 Architecture: iphoneos-arm
 Version: 0.0~beta6
@@ -434,29 +358,6 @@ Description: Port Flipswitch Toggles With CCSupport
 Name: FlipConvert
 Author: julioverne
 Depiction: http://julioverne.github.io/description.html?id=com.julioverne.flipconvert
-
-Package: com.matchstic.reprovision
-Architecture: iphoneos-arm
-Version: 0.4.5
-Priority: optional
-Section: System
-Maintainer: Matt Clarke <matt@incendo.ws>
-Provides: com.matchstic.Extender-Installer
-Depends: firmware (>= 9.0)
-Replaces: com.matchstic.Extender-Installer
-Filename: ./debs/com.matchstic.reprovision_0.4.5_iphoneos-arm.deb
-Size: 10687828
-MD5sum: 2af870e436036f779fb2720a0b71c1fb
-SHA1: a1d1bb6de53cd73274182243f1f2dc55b5cc0c23
-SHA256: 7aee1fdcb58b591288d7659bf1b4f27514852c4c234701c13d8bfaa26ae7d46e
-SHA512: 1bbec8e434df5ed8ca24eb4adba98b4d09bc8295fed751ffd90a46aba0102342aefba7a3cdef9a7e83dc27a8bd2e08adda4731b395fda40128f69540423a6dbf
-Homepage: https://github.com/Matchstic/Extender-Installer
-Description: Re-sign applications on your device
-Name: ReProvision
-Author: Matt Clarke <matt@incendo.ws>
-dev: Matt Clarke <matt@incendo.ws>
-Depiction: http://incendo.ws/repo/depictions/com.matchstic.reprovision.html
-Icon: file:///Applications/ReProvision.app/AppIcon60x60@2x.png
 
 Package: com.midnightchips.localhostssh
 Architecture: iphoneos-arm
@@ -1224,46 +1125,6 @@ Name: Zenith
 Author: Muirey03
 Icon: file:///Library/PreferenceBundles/Zenith.bundle/Icon-Large.png
 
-Package: com.opa334.safariplus
-Architecture: iphoneos-arm
-Version: 1.7.5-3
-Section: Tweaks
-Maintainer: opa334 <opa334@protonmail.com>
-Installed-Size: 4752
-Depends: firmware (>=8.0), mobilesubstrate, ws.hbang.common, com.creaturesurvive.libcscolorpicker, com.rpetrich.rocketbootstrap
-Filename: ./debs/com.opa334.safariplus_1.7.5-3_iphoneos-arm.deb
-Size: 987120
-MD5sum: c5e5259b6b104e11f065f949896600d4
-SHA1: fe670f1650bfccc02abdbe541f3c25f58b9e16d1
-SHA256: ab455d93444e871ac1bcfc82aaea25950cd22f4dab2ee22ffa09669ea44f6b8c
-SHA512: e367bbf052b5582ccb645292b85b4be676291170b58564a0ab4d12ae45f466fdb9ba2ab77ac5ea4c721feb0d71082f352f71a0f28761d8fbda4fb1ef39d6a982
-Homepage: https://opa334.github.io/
-Description: Various enhancements to Safari!
-Name: Safari Plus
-Depiction: https://opa334.github.io/depic/SafariPlus/index.html
-Icon: https://opa334.github.io/depic/SafariPlus/Resources/icon.png
-Author: opa334 <opa334@protonmail.com>
-
-Package: com.opa334.safariplus
-Architecture: iphoneos-arm
-Version: 1.7.6
-Section: Tweaks
-Maintainer: opa334 <opa334@protonmail.com>
-Installed-Size: 4764
-Depends: firmware (>=8.0), mobilesubstrate, ws.hbang.common, com.creaturesurvive.libcscolorpicker, com.rpetrich.rocketbootstrap
-Filename: ./debs/com.opa334.safariplus_1.7.6_iphoneos-arm.deb
-Size: 993084
-MD5sum: b4a0bb2e54fe08731bc0f42111f888ea
-SHA1: fbb23b9965c988c56fb62595ba7b6ae689c94968
-SHA256: 900537d2d02281f324c5b0f71d08fc35c41a70bd8749c9f649066ed4c04646fa
-SHA512: fde1bce86ab336588dd5ac1beb890f27910402eb3b6352d999d07d0dea8882a9c6d056d54d728c3f58fa2fbd7603c00eb50ed30a1984b65c7ebc3abbf5d55407
-Homepage: https://opa334.github.io/
-Description: Various enhancements to Safari!
-Name: Safari Plus
-Depiction: https://opa334.github.io/depic/SafariPlus/index.html
-Icon: https://opa334.github.io/depic/SafariPlus/Resources/icon.png
-Author: opa334 <opa334@protonmail.com>
-
 Package: com.ryleyangus.libertylite.beta
 Architecture: iphoneos-arm
 Version: 0.2.12
@@ -1378,24 +1239,6 @@ Sponsor: thebigboss.org <http://thebigboss.org>
 dev: sharedroutine
 Icon: file:///Library/PreferenceBundles/STPreferences.bundle/AppIcon40x40@2x.png
 
-Package: com.tigisoftware.filza64bit
-Architecture: iphoneos-arm
-Version: 3.7.0-18
-Section: Utilities
-Maintainer: TIGI Software
-Installed-Size: 20132
-Depends: zip, unzip, gzip, unrar, p7zip
-Conflicts: com.tigisoftware.filza
-Filename: ./debs/com.tigisoftware.filza64bit_3.7.0-18_iphoneos-arm.deb
-Size: 8271118
-MD5sum: b66db1053510f37c34996de60f26fd8f
-SHA1: 027fc88d60e01792241510a1ebd8d5d70ba2f841
-SHA256: f026dbf10ad5038e99db31684c814e869dfe9493628f9e50f2fef8a5e5821e9c
-SHA512: caf1e89d282734f8bad8e09cca2bde1a4fac1040a93ee756a9fa0fac885701c2417b9a9712827e1d3598be946f8f8889fe281c14a5cc43ea7bdfe94dd523fd9d
-Description: File Manager for iPhone, iPad, iPod Touch. Supports iOS 7+. This special version only supports 64-bit devices
-Name: Filza File Manager 64-bit
-Author: TIGI Software
-
 Package: com.unlimapps.toneenabler
 Architecture: iphoneos-arm
 Version: 1.1r-14
@@ -1411,22 +1254,6 @@ SHA512: 840de3fa2b030c9c9d55fc75ee7dc4b4e02d15965534227c413e6b2365f27c8dcb871941
 Description: In iOS 7.x/8.x apple uses a plist in order to load ringtones in settings instead of simply iterating through the /Library/Ringtones directory. This tweak enables the old behavior that was present before 7.x and reads the tones from the directory so tones that you download from cydia or UnlimTones will now show in settings.
 Name: ToneEnabler
 Author: UnlimApps Inc.
-
-Package: com.r333d.eqe
-Architecture: iphoneos-arm
-Version: 2.0.10~beta-15ee82
-Section: Tweaks
-Maintainer: r333d <rweichler+cydia+eqe@gmail.com>
-Depends: com.rpetrich.rocketbootstrap (>= 1.0.6), firmware (<< 13), mobilesubstrate, dpkg, coreutils
-Filename: ./debs/eqe.deb
-Size: 5210964
-MD5sum: f0f9cc20d24f2b60a42f72a013706fc7
-SHA1: fc476976d6ff12ee482ba6029a69c59f178085ec
-SHA256: 028944c35c0c6cc2544a6df67bf1d3896815f6c9e8b9d2bdbc4e11a886e62edb
-SHA512: 6c79f422ea0e532c683b18d7a41726fecbfb7ec7364017c5b3ec27509322f3ad0165ac66358a7a3ba69e8d99c197685c1a2f4c873f2022f2e23e7ca470f718cc
-Description: System-wide parametric equalizer
-Name: EQE
-Author: r333d <rweichler+cydia+eqe@gmail.com>
 
 Package: io.github.ddv.class-dump-ios
 Architecture: iphoneos-arm
@@ -1487,24 +1314,6 @@ Author: Ryan Petrich <rpetrich+activator@gmail.com>
 Sponsor: thebigboss.org <http://thebigboss.org>
 dev: rpetrich
 Icon: file:///Applications/Activator.app/Icon-Small-modern@2x.png
-
-Package: me.ahmedbafkir.dleasy
-Architecture: iphoneos-arm
-Version: 2.7.5-1
-Section: Tweaks
-Maintainer: AhmedBafkir <prooxy0@gmail.com>
-Installed-Size: 9160
-Depends: mobilesubstrate, preferenceloader, com.rpetrich.rocketbootstrap
-Filename: ./debs/me.ahmedbafkir.dleasy_2.7.5-1_iphoneos-arm.deb
-Size: 1580164
-MD5sum: 131618c1676f9f101e209c4553bbaad8
-SHA1: 647a5f8048531a0d399e4291ad0ab7908d5caab0
-SHA256: d04d64457c488a890b8da90f57881d4d76bb408f9a460d41a3e3a2afc1c29487
-SHA512: 5e09f66fb097449ccce825dea5f12499913e948c4e227623e270fdc61b25b0645ac111aae95f3b79512bc073326e225d2ff89978938caba3193a484801e3c5b2
-Description: Download/Share images & videos from social apps easily!
-Name: DLEasy
-Author: AhmedBafkir <prooxy0@gmail.com>
-Icon: file:///Library/PreferenceBundles/DLEasy.bundle/icon@3x.png
 
 Package: me.midnightchips.snapback
 Architecture: iphoneos-arm
@@ -1758,23 +1567,6 @@ Sponsor: thebigboss.org <http://thebigboss.org>
 Author: uroboro <uroboro.845@gmail.com>
 dev: uroboro
 
-Package: perl
-Architecture: iphoneos-arm
-Version: 5.28.0-1
-Priority: optional
-Section: Scripting
-Maintainer: Sam Bingner <maintainer@sbdhi.com>
-Installed-Size: 107352
-Pre-Depends: dpkg (>= 1.14.25-8)
-Filename: ./debs/perl_5.28.0-1_iphoneos-arm.deb
-Size: 7888760
-MD5sum: a77339e29459b93f805bd4b34eb55bb3
-SHA1: c49b0fc8adda6d0a47bf1071b56c1d707e7a46cf
-SHA256: 5add5d4ce7a18047c1421026aadfa001de347f4fb106683836947b5f51bc0c3d
-SHA512: 499f09557b0493bc583cc37380d3d27b15d24afe50c34837a1c7b85972cf0e0f3289e98cdb8b209be3ad9552fd67fe53d6906ec87592e4dee203cdae493b57fc
-Description: awesome combination of sed and awk
-Name: Perl
-
 Package: preferenceloader
 Architecture: iphoneos-arm
 Version: 2.2.4~beta1
@@ -1866,23 +1658,4 @@ Description: DylibDisabler removes and disables dylibs for mobile substrate twea
  **USE AT YOUR OWN RISK! I TAKE NO RESPONSIBILITY IF YOU NEED TO RESTORE YOUR iOS DEVICE!**
 Name: DylibDisabler 3
 Author: EvilPenguin / ichitaso
-
-Package: xyz.willy.zebra
-Architecture: iphoneos-arm
-Version: 1.0~beta22-1
-Section: Packaging
-Maintainer: Wilson Styres <wilson@styres.me>
-Installed-Size: 22484
-Depends: dpkg, uikittools
-Filename: ./debs/xyz.willy.zebra_1.0~beta22-1_iphoneos-arm.deb
-Size: 6490764
-MD5sum: 1ee5583dacecda69977d2c9ce6f0a4ff
-SHA1: e2ff31cf13a487e5f02090e9a16e34bb88a46eff
-SHA256: 6bad457259ab1e7a8a17a8a399a5e1a120f19c60294552180910414f588d1263
-SHA512: afd46a5a5f4d3badde99fad5d8457d1bf73fa18b920a3ae01d73d5a8894a639d04e02067686fc9e1c3ca014576ce7fe6084decad45a2e18a8d7f1a57ca2d9603
-Description: A Useful Package Manager
-Tag: purpose::x
-Name: Zebra (BETA)
-Author: Wilson Styres <wilson@styres.me>
-Depiction: https://xtm3x.github.io/repo/depictions/xyz.willy.zebra/
 
