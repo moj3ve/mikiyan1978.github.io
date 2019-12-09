@@ -547,6 +547,24 @@ Name: FakeClockUp
 author: mikiyan1978 <mikiyan1978@gmail.com>
 Icon: file:///Library/PreferenceLoader/Preferences/FakeClockUp@2x.png
 
+Package: com.mikiyan1978.foldecolor
+Architecture: iphoneos-arm
+Version: 1.0-1+debug
+Section: Tweaks
+Maintainer: mikiyan1978 <mikiyan1978@gmail.com>
+Installed-Size: 72
+Depends: mobilesubstrate
+Filename: ./debs/com.mikiyan1978.foldecolor_1.0-1+debug_iphoneos-arm.deb
+Size: 3688
+MD5sum: cb0b25ddeb886644a16eb519ecd5d4e1
+SHA1: 29c42b6a44bf8825c30dfae3f5e63d0309409d7c
+SHA256: eff43d352229dc04220a48adde39da0c3986019d801a2421b1b1496e37c49df7
+SHA512: 26be292a6b637c27b4261100e2125f3578095487e55295b3cf625cd32a1cd23c39ae46adc44959bc5fcc381aa7fb3389c20750f21436f96706a61ab8317e4e46
+Description: Make background color random when folder is opened.
+Name: Folde Color
+Depiction:
+Author: mikiyan1978 <mikiyan1978@gmail.com>
+
 Package: com.mikiyan1978.hosts
 Architecture: iphoneos-arm
 Version: 1.0
