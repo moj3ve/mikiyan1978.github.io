@@ -377,6 +377,23 @@ Name: Local SSH
 Author: MidnightChips <midnightchips@gmail.com>
 Depiction: https://repo.chariz.io/package/com.midnightchips.localhostssh/
 
+Package: com.mikiyan1978.2dock
+Architecture: iphoneos-arm
+Version: 1.0-1+debug
+Section: Tweaks
+Maintainer: mikiyan1978 <mikiyan1978@gmail.com>
+Installed-Size: 76
+Depends: mobilesubstrate
+Filename: ./debs/com.mikiyan1978.2dock_1.0-1+debug_iphoneos-arm.deb
+Size: 3912
+MD5sum: a232d30cfdc0c292dbe58f426c12d146
+SHA1: 19f2d1bd1c846803ccbde22537797be001a3bad7
+SHA256: 0af0579cde71cdbb2db4640ac59eab33b48696d83f3c9cc04c48ccdb31f849b1
+SHA512: b670b850fb2621d7d9fd69fc0596a360eb808550159fefa61ab481861c07f4f3f745c3e31d54e1748ea2bc8eacd4ee47f8c6dcd4173f1761420cd679165c0e45
+Description: 6-row 2-level dock
+Name: 6Dock×2
+Author: mikiyan1978 <mikiyan1978@gmail.com>
+
 Package: com.mikiyan1978.actideleting
 Architecture: iphoneos-arm
 Version: 1.0-2
